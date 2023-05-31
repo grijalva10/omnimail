@@ -1,0 +1,7 @@
+## Omnimail
+
+mailer
+
+#### License
+
+MIT

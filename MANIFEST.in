@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include omnimail *.css
+recursive-include omnimail *.csv
+recursive-include omnimail *.html
+recursive-include omnimail *.ico
+recursive-include omnimail *.js
+recursive-include omnimail *.json
+recursive-include omnimail *.md
+recursive-include omnimail *.png
+recursive-include omnimail *.py
+recursive-include omnimail *.svg
+recursive-include omnimail *.txt
+recursive-exclude omnimail *.pyc
