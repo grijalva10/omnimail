@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-31 11:18:19.760026",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email_id",
+  "bounce_type",
+  "bounce_sub_type",
+  "bounced_recipients",
+  "timestamp"
+ ],
+ "fields": [
+  {
+   "fieldname": "bounce_type",
+   "fieldtype": "Select",
+   "label": "Bounce Type",
+   "options": "\nPermanent\nTransient\nUndetermined"
+  },
+  {
+   "fieldname": "bounce_sub_type",
+   "fieldtype": "Data",
+   "label": "Bounce Sub Type"
+  },
+  {
+   "fieldname": "bounced_recipients",
+   "fieldtype": "Data",
+   "label": "Bounced Recipients"
+  },
+  {
+   "fieldname": "timestamp",
+   "fieldtype": "Datetime",
+   "label": "Timestamp"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Link",
+   "label": "Email ID",
+   "options": "Email Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-31 14:11:52.677386",
+ "modified_by": "Administrator",
+ "module": "Omnimail",
+ "name": "Email Bounce",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

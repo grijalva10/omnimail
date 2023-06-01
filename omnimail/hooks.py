@@ -12,7 +12,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/omnimail/css/omnimail.css"
-# app_include_js = "/assets/omnimail/js/omnimail.js"
+# app_include_js = "/assets/omnimail/js/aws_ses.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/omnimail/css/omnimail.css"

@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-31 11:25:04.336850",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "aws_access_key_id",
+  "aws_secret_access_key",
+  "aws_region",
+  "sns_topic_arn",
+  "enable_open_tracking",
+  "enable_click_tracking",
+  "default_email_sender",
+  "default_email_subject"
+ ],
+ "fields": [
+  {
+   "fieldname": "aws_access_key_id",
+   "fieldtype": "Data",
+   "label": "AWS Access Key ID"
+  },
+  {
+   "fieldname": "aws_secret_access_key",
+   "fieldtype": "Password",
+   "label": "AWS Secret Access Key"
+  },
+  {
+   "fieldname": "aws_region",
+   "fieldtype": "Data",
+   "label": "AWS Region"
+  },
+  {
+   "fieldname": "sns_topic_arn",
+   "fieldtype": "Data",
+   "label": "SNS Topic ARN"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_open_tracking",
+   "fieldtype": "Check",
+   "label": "Enable Open Tracking"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_click_tracking",
+   "fieldtype": "Check",
+   "label": "Enable Click Tracking"
+  },
+  {
+   "fieldname": "default_email_sender",
+   "fieldtype": "Data",
+   "label": "Default Email Sender"
+  },
+  {
+   "fieldname": "default_email_subject",
+   "fieldtype": "Data",
+   "label": "Default Email Subject"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-05-31 11:25:04.336850",
+ "modified_by": "Administrator",
+ "module": "Omnimail",
+ "name": "Omnimail Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

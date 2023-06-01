@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-31 11:17:02.578047",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "recipient",
+  "subject",
+  "sent_date",
+  "status",
+  "aws_message_id",
+  "bounce_type",
+  "complaint_type",
+  "clicked_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "recipient",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recipient",
+   "options": "Email"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "sent_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Sent Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nSent\nDelivered\nOpened\nClicked\nBounced\nComplained"
+  },
+  {
+   "fieldname": "aws_message_id",
+   "fieldtype": "Data",
+   "label": "AWS Message ID"
+  },
+  {
+   "fieldname": "bounce_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Bounce Type",
+   "options": "\nPermanent\nTransient\nUndetermined"
+  },
+  {
+   "fieldname": "complaint_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Complaint Type"
+  },
+  {
+   "fieldname": "clicked_link",
+   "fieldtype": "Data",
+   "label": "Clicked Link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-31 14:21:22.440926",
+ "modified_by": "Administrator",
+ "module": "Omnimail",
+ "name": "Email Status",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
